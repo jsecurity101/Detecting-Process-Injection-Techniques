@@ -1,11 +1,20 @@
 # Detecting Process Injection Techniques:
 This is a repository that is meant to hold detections for various process injection techniques.
 
+# General Information: 
 
+* Data analytics written within Jupyter Notebooks can be found within the `Detection_Notebooks` folder. 
 
-# Technqiues Covered Within This Project:
+* Detection write-ups of each technique can be found within the `Detection_WriteUps` folder.
+
+* Datasets of each technique can be found here: [Process Injection Datasets](https://github.com/jsecurity101/mordor/tree/master/small_datasets/windows/defense_evasion/process_injection_T1055)
+
+## Technqiues Covered Within This Project:
 * DLL Injection
 * Reflective DLL Injection
+* Process Hollowing
+
+
 
 
 # Authors:
