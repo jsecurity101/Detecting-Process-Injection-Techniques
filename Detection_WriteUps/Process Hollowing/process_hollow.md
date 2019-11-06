@@ -48,6 +48,7 @@ JOIN sysmon_events c
 	ON f.prcoess_guid = c.process_target_guid
 	AND c.event_id = 10
 	AND (c.process_granted_access & 40) == 40
+	OR (c.process_granted_access & 80) == 80
 	AND f.process_name = c.process_target_name
 	AND f.process_parent_guid = c.process_guid
 WHERE
@@ -75,7 +76,7 @@ Based off of this behavior, there are 2 APIs that correlate with 2 Sysmon events
 The advesary needs to call CreateProcess to start a target process in a suspended state.  
 
 2. Sysmon Event ID 10 - Process Access. This event will call the event registraion mechanism: `ObRegisterCallbacks`, which is a kernel callback function inside of Windows. Inside of the Sysmon driver, the `nt!NtOpenProcess ` API is funneled through this event registration mechanism to create an ID of 10. 
-The advesary needs to open the suspended process to re-allocating memory segments. One of the unique characteristics of this specific process access event is that the `process granted Access` field displays the code `0x00000004` which corresponds to `CREATE_SUSPENDED`. The primary thread of the new process is created in a suspended state, and does not run until the `ResumeThread` function is called.
+The advesary needs to open the suspended process to re-allocating memory segments. One of the unique characteristics of this specific process access event is that the `process granted Access` field displays the code `0x00000004` which corresponds to `CREATE_SUSPENDED`. The primary thread of the new process is created in a suspended state, and does not run until the `ResumeThread` function is called. Another function that an adversary could use is the `PROCESS_SUSPEND_RESUME (0x0800)` to resume the primary thread; as this too has been included in the query. 
 
 # Blind Spots and Assumptions:
 * Advesary is using another form of process injection - DLL injection, process hallowing, etc.
