@@ -21,3 +21,5 @@ This is a repository that is meant to hold detections for various process inject
 * [Josh Prager](https://twitter.com/Praga_Prag)
 
 * [Jonathan Johnson](https://twitter.com/jsecurity101)
+
+* [David Polojac](https://twitter.com/@poloh4ck)
