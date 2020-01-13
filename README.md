@@ -14,7 +14,9 @@ This is a repository that is meant to hold detections for various process inject
 * Reflective DLL Injection
 * Process Hollowing
 
+## Resources: 
 
+* https://github.com/theevilbit/injection
 
 
 # Authors:
