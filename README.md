@@ -13,7 +13,7 @@ This is a repository that is meant to hold detections for various process inject
 * DLL Injection
 * Reflective DLL Injection
 * Process Hollowing
-* Process Reimaging (Not necessarily injection, but still useful)
+* Process Reimaging (not necessarily injection, but still useful)
 
 ## Resources: 
 
