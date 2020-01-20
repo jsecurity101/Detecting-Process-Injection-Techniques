@@ -1,5 +1,5 @@
 # Goal:
-Detect an advesary Process Hollowing
+Detect an advesary utilizing the `SetWindowsHookEx` API to load a malicous DLL into a processes address space. 
 
 
 # Categorization:
