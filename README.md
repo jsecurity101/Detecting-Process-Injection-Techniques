@@ -7,7 +7,7 @@ This is a repository that is meant to hold detections for various process inject
 
 * Detection write-ups of each technique can be found within the `Detection_WriteUps` folder.
 
-* Datasets of each technique can be found here: [Process Injection Datasets](https://github.com/jsecurity101/mordor/tree/master/small_datasets/windows/defense_evasion/process_injection_T1055)
+* Datasets of each technique can be found within the respective folders. 
 
 ## Technqiues Covered Within This Project:
 * DLL Injection
@@ -18,8 +18,10 @@ This is a repository that is meant to hold detections for various process inject
 
 ## Resources: 
 POC's:
-
 * https://github.com/theevilbit/injection
+* https://github.com/secrary/InjectProc
+* https://github.com/djhohnstein/ProcessReimaging
+
 
 Injection Information: 
 * https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process
