@@ -14,11 +14,16 @@ This is a repository that is meant to hold detections for various process inject
 * Reflective DLL Injection
 * Process Hollowing
 * Process Reimaging (not necessarily injection, but still useful)
+* Hook Injection via SetWindowsHookEx
 
 ## Resources: 
+POC's:
 
 * https://github.com/theevilbit/injection
 
+Injection Information: 
+* https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process
+* https://warroom.rsmus.com/dll-injection-part-1-setwindowshookex/
 
 # Authors:
 * [Josh Prager](https://twitter.com/Praga_Prag)
