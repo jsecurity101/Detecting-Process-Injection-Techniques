@@ -5,8 +5,6 @@ This is a repository that is meant to hold detections for various process inject
 
 * Data analytics written within Jupyter Notebooks can be found within the `Detection_Notebooks` folder. 
 
-* Detection write-ups of each technique can be found within the `Detection_WriteUps` folder.
-
 * Datasets of each technique can be found within the respective folders. 
 
 ## Technqiues Covered Within This Project:
