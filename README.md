@@ -20,7 +20,7 @@ POC's:
 * https://github.com/secrary/InjectProc
 * https://github.com/djhohnstein/ProcessReimaging
 
-# Reading From The Datasets: 
+## Reading From The Datasets: 
 
 - You can read from the json file directly from within the notebooks (see Raw notebooks for an example). 
 
@@ -39,7 +39,7 @@ POC's:
 
 
 
-# Injection Information: 
+## Injection Information: 
 * https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process
 * https://warroom.rsmus.com/dll-injection-part-1-setwindowshookex/
 
