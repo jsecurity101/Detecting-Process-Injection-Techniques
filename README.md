@@ -20,7 +20,7 @@ POC's:
 * https://github.com/secrary/InjectProc
 * https://github.com/djhohnstein/ProcessReimaging
 
-# Reading from the datasets: 
+# Reading From The Datasets: 
 
 - You can read from the json file directly from within the notebooks (see Raw notebooks for an example). 
 
