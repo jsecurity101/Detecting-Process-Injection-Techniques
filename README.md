@@ -20,8 +20,26 @@ POC's:
 * https://github.com/secrary/InjectProc
 * https://github.com/djhohnstein/ProcessReimaging
 
+# Reading from the datasets: 
 
-Injection Information: 
+- You can read from the json file directly from within the notebooks (see Raw notebooks for an example). 
+
+- You can ingest the datasets into your ELK stack by utilziing `kafkacat`.  Follow these steps: 
+
+    *   Untar the dataset of choice:
+
+
+            tar -xzvf dataset.tar.gz
+
+
+    -  Use kafkacat to send dataset to Kafka broker:
+
+
+            kafkacat -b <HELK IP>:9092 -t winlogbeat -P -l dataset.json
+
+
+
+# Injection Information: 
 * https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process
 * https://warroom.rsmus.com/dll-injection-part-1-setwindowshookex/
 
