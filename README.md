@@ -19,7 +19,7 @@ POC's:
 * https://github.com/theevilbit/injection
 * https://github.com/secrary/InjectProc
 * https://github.com/djhohnstein/ProcessReimaging
-
+* [psinject empire dataset](https://github.com/hunters-forge/mordor/blob/master/datasets/small/windows/defense_evasion/empire_psinject.tar.gz)
 ## Reading From The Datasets: 
 
 - You can read from the json file directly from within the notebooks (see Raw notebooks for an example). 
