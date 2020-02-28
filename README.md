@@ -8,7 +8,7 @@ This is a repository that is meant to hold detections for various process inject
 * Datasets of each technique can be found within the respective folders. 
 
 ## Technqiues Covered Within This Project:
-* DLL Injection
+* DLL Injection (CreateRemoteThread & RtlCreateUserThread)
 * Reflective DLL Injection
 * Process Hollowing
 * Process Reimaging (not necessarily injection, but still useful)
